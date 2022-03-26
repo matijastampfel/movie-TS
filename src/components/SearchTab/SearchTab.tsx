@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './SearchTab.css'
 import _ from "lodash";
 import List from "../List/List";
 

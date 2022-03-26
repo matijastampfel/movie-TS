@@ -34,7 +34,7 @@ function List({ search }: SearchMovieProps) {
   } else {
     return (
       <>
-        <div>Number of movies: {items.length}</div>
+        <p>Number of movies: {items.length}</p>
         <div>
           {items.map((movie: any) => {
             return (
