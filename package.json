@@ -1,6 +1,7 @@
 {
   "name": "movie-app",
   "version": "0.1.0",
+  "homepage": "https://matijastampfel.github.io/movie-TS/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.180"
+    "@types/lodash": "^4.14.180",
+    "gh-pages": "^4.0.0"
   }
 }
